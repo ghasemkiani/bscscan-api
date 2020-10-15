@@ -1,0 +1,31 @@
+{
+  "name": "@ghasemkiani/bscscan-api",
+  "version": "1.0.0",
+  "description": "An API client for bscscan.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ghasemkiani/bscscan-api.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "blockchain",
+    "cryptocurrency",
+    "binance-smart-chain",
+    "api"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ghasemkiani/bscscan-api/issues"
+  },
+  "homepage": "https://gitlab.com/ghasemkiani/bscscan-api#readme",
+  "dependencies": {
+    "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
