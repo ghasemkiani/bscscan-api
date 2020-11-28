@@ -11,6 +11,7 @@ class Client extends ClientEth {
 cutil.extend(Client.prototype, {
 	endpoint: "https://api.bscscan.com/api",
 	apiKeyTokenEnvName: null,
+	cacheName: "bscscan",
 });
 
 module.exports = {Client};
