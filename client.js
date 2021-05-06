@@ -2,7 +2,7 @@
 
 const fetch = require("isomorphic-fetch");
 
-const {cutil} = require("@ghasemkiani/commonbase/cutil");
+const {cutil} = require("@ghasemkiani/base/cutil");
 const {Client: ClientEth} = require("@ghasemkiani/etherscan-api/client");
 
 class Client extends ClientEth {
