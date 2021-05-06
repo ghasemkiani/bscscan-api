@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/ghasemkiani/bscscan-api.git"
+    "url": "git+https://github.com/ghasemkiani/bscscan-api.git"
   },
   "keywords": [
     "javascript",
@@ -21,9 +21,9 @@
   "author": "Ghasem Kiani",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/ghasemkiani/bscscan-api/issues"
+    "url": "https://github.com/ghasemkiani/bscscan-api/issues"
   },
-  "homepage": "https://gitlab.com/ghasemkiani/bscscan-api#readme",
+  "homepage": "https://github.com/ghasemkiani/bscscan-api#readme",
   "dependencies": {
     "@ghasemkiani/base": "github:ghasemkiani/base",
     "@ghasemkiani/etherscan-api": "github:ghasemkiani/etherscan-api",
