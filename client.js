@@ -10,7 +10,7 @@ class Client extends ClientEth {
 }
 cutil.extend(Client.prototype, {
 	endpoint: "https://api.bscscan.com/api",
-	apiKeyTokenEnvName: null,
+	apiKeyTokenEnvName: "BSCSCAN_APIKEY_TOKEN",
 	cacheName: "bscscan",
 });
 
