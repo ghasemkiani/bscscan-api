@@ -1,7 +1,8 @@
 {
   "name": "@ghasemkiani/bscscan-api",
-  "version": "2.2.1",
+  "version": "3.0.0",
   "description": "An API client for bscscan.com",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +27,6 @@
   "homepage": "https://github.com/ghasemkiani/bscscan-api#readme",
   "dependencies": {
     "@ghasemkiani/base": "github:ghasemkiani/base",
-    "@ghasemkiani/etherscan-api": "github:ghasemkiani/etherscan-api",
-    "isomorphic-fetch": "^3.0.0"
+    "@ghasemkiani/etherscan-api": "github:ghasemkiani/etherscan-api"
   }
 }

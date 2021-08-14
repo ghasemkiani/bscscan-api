@@ -1,9 +1,7 @@
 //	@ghasemkiani/bscscan-api/client
 
-const fetch = require("isomorphic-fetch");
-
-const {cutil} = require("@ghasemkiani/base/cutil");
-const {Client: ClientEth} = require("@ghasemkiani/etherscan-api/client");
+import {cutil} from "@ghasemkiani/base";
+import {Client as ClientEth} from "@ghasemkiani/etherscan-api";
 
 class Client extends ClientEth {
 	//
@@ -14,6 +12,6 @@ cutil.extend(Client.prototype, {
 	cacheName: "bscscan",
 });
 
-module.exports = {Client};
+export {Client};
 
 // https://api.bscscan.com/apis

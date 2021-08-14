@@ -1,5 +1,5 @@
 //	@ghasemkiani/bscscan-api
 
-const {Client} = require("@ghasemkiani/bscscan-api/client");
+import {Client} from "./client.js";
 
-module.exports = {Client};
+export {Client};
